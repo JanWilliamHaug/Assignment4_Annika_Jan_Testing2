@@ -5,6 +5,4 @@ data class DataAPIItem (
     val id: Int = 0,
     val title: String = "",
     val userId: Int = 0
-) {
-    constructor() : this("", 0, "", 0)
-}
+)
