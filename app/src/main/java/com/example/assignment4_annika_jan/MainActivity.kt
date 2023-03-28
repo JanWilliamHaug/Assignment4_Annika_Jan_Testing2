@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
         findViewById<BottomNavigationView>(R.id.bottom_nav).setOnItemSelectedListener { item ->
             when(item.itemId) {
                 R.id.ic_api -> {
